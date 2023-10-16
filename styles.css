@@ -1,7 +1,3 @@
-.container-fluid {
-  background: url(./imgs/photo-1619410283995-43d9134e7656.jpeg);
-}
-
 .intro {
   display: flex;
   justify-content: center;
@@ -9,6 +5,10 @@
   text-align: center;
   flex-direction: column;
   padding-bottom: 200px;
+  padding-left: min(200px) max(0);
+  padding-right: min(200px) max(0);
+  width: 100%;
+  background: url(./imgs/photo-1619410283995-43d9134e7656.jpeg);
 }
 
 .greeting,
@@ -103,7 +103,7 @@ hr {
 .retail,
 .mechanic,
 .programmer {
-  padding: 0 100px 0 100px;
+  padding: 0 50px 0 50px;
 }
 
 .contact {
@@ -129,4 +129,21 @@ hr {
 strong,
 h1 {
   color: #3e01f4;
+}
+
+.footer {
+  background: #3e01f4;
+  display: flex;
+  padding: 50px 0 50px 0;
+  justify-content: space-between;
+}
+
+.made-by {
+  color: #fff;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.socials {
+  padding-right: 20px;
 }
